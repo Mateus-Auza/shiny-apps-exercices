@@ -148,8 +148,7 @@ This application is useful for:
 ---
 
 ## Author
-Mateus Auza Cruz
 
-
+**Mateus Auza Cruz**
 
 Developed as a simple interactive tool for teaching and exploring probability distributions using **R**, **ggplot2**, and **Shiny**.

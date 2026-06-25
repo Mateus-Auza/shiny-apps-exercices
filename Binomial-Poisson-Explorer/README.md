@@ -67,9 +67,9 @@ The application automatically updates:
 
 Displays:
 
-\[
+$$
 P(X = k)
-\]
+$$
 
 for each possible number of events.
 
@@ -82,9 +82,9 @@ The PMF is visualized using:
 
 Displays:
 
-\[
+$$
 P(X \leq k)
-\]
+$$
 
 for each possible number of events.
 
@@ -98,9 +98,9 @@ The CDF is visualized as a step function, reflecting the discrete nature of the 
 
 The Binomial distribution models the number of successes in a fixed number of independent trials.
 
-\[
+$$
 X \sim Bin(n,p)
-\]
+$$
 
 where:
 
@@ -109,21 +109,21 @@ where:
 
 Probability Mass Function:
 
-\[
+$$
 P(X=k)=\binom{n}{k}p^k(1-p)^{n-k}
-\]
+$$
 
 Mean:
 
-\[
+$$
 E(X)=np
-\]
+$$
 
 Variance:
 
-\[
+$$
 Var(X)=np(1-p)
-\]
+$$
 
 ---
 
@@ -131,9 +131,9 @@ Var(X)=np(1-p)
 
 The Poisson distribution models the number of events occurring within a fixed interval when events occur independently at a constant average rate.
 
-\[
+$$
 X \sim Pois(\lambda)
-\]
+$$
 
 where:
 
@@ -141,21 +141,21 @@ where:
 
 Probability Mass Function:
 
-\[
+$$
 P(X=k)=\frac{\lambda^k e^{-\lambda}}{k!}
-\]
+$$
 
 Mean:
 
-\[
+$$
 E(X)=\lambda
-\]
+$$
 
 Variance:
 
-\[
+$$
 Var(X)=\lambda
-\]
+$$
 
 ---
 
@@ -244,5 +244,7 @@ This application is useful for:
 ---
 
 ## Author
+
+**Mateus Auza Cruz**
 
 Developed as an interactive educational tool for exploring discrete probability distributions and their cumulative probabilities.

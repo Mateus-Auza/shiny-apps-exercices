@@ -1,4 +1,4 @@
-library(ggplot2); 
+library(ggplot2); library(bslib); library(shiny)
 
 ui= fluidPage(
   titlePanel("Comparison between Binomial and Poisson"),

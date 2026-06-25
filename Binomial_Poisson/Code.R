@@ -1,3 +1,5 @@
+library(ggplot2); 
+
 ui= fluidPage(
   titlePanel("Comparison between Binomial and Poisson"),
   sidebarLayout(

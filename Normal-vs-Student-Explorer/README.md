@@ -38,9 +38,9 @@ The app allows users to:
 - **Interval (a, b)**  
   Select the region of interest. The shaded area represents the probability
 
-  \[
+  $$
   P(a < X < b)
-  \]
+  $$
 
 - **Mean (Normal Distribution)**  
   Adjust the center of the Normal distribution.
@@ -71,17 +71,17 @@ The Normal distribution is defined by two parameters:
 - Mean (`μ`)
 - Standard deviation (`σ`)
 
-\[
+$$
 X \sim N(\mu,\sigma^2)
-\]
+$$
 
 ### Student's t Distribution
 
 The Student's t distribution depends on the number of degrees of freedom (`df`).
 
-\[
+$$
 T \sim t(df)
-\]
+$$
 
 For small values of `df`, the distribution has heavier tails than the Normal distribution. As `df` increases, it converges to the Normal distribution.
 

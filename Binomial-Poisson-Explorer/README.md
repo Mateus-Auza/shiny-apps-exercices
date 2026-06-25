@@ -137,7 +137,7 @@ $$
 
 where:
 
-- \(\lambda\) = average rate of occurrence
+- ($\lambda$) = average rate of occurrence
 
 Probability Mass Function:
 
